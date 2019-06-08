@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+	<meta charset="UTF-8">
+	<title>Graf</title>
+	<link rel="stylesheet" href="graph.css">
+</head>
+<body>
+	<h1>Hledání nejkratší cesty v grafu (Dijkstrův algoritmus)</h1>
+	<div class="graph-cont">
+		<div class="toolbar" id="toolbar">
+			<label for="add-vertex"><input type="radio" name="tool" id="add-vertex"> Přidat vrchol</label>
+			<label for="add-edge"><input type="radio" name="tool" id="add-edge"> Přidat hranu</label>
+			<label for="remove-vertex"><input type="radio" name="tool" id="remove-vertex"> Odstranit vrchol</label>
+			<label for="remove-edge"><input type="radio" name="tool" id="remove-edge"> Odstranit hranu</label>
+			<label for="properties"><input type="radio" name="tool" id="properties"> Vlastnosti prvku</label>
+			<label for="find-path"><input type="radio" name="tool" id="find-path"> Najít cestu</label>
+		</div>
+		<canvas id="graph-canv" width="800" height="600"></canvas>
+		<div class="sidebox-cont" id="sidebox-cont"></div>
+	</div>
+	<script src="vector.class.js"></script>
+	<script src="graph.class.js"></script>
+	<script src="graph-app.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body {
+	font-family: Calibri, sans-serif;
+}
+.graph-cont {
+	border: 1px solid #000;
+	width: 1050px;
+	overflow: hidden;
+}
+.toolbar {
+	clear: both;
+	border-bottom: 1px solid #000;
+	padding: 5px;
+}
+#graph-canv {
+	border-right: 1px solid #000;
+	float: left;
+}
+.sidebox-cont {
+	width: 249px;
+	float: left;
+}
+.sidebox {
+	border: 1px solid #000;
+	margin: 10px;
+}
+.sidebox legend {
+	padding: 3px 6px;
+	background-color: #000;
+	color: #fff;
+	font-weight: bold;
+}
+.clear {
+	clear: both;
+}
+#sel-item {
+	font-weight: bold;
+}
+.value {
+	display: block;
+	margin-left: 1em;
+}
+ul.value {
+	margin: 0;
+	padding: 0 1em;
+	list-style: none;
+}
+ul.value li {
+	float: left;
+}
+ul.value li:before {
+	content: "→";
+	margin: 0 .2em;
+}
+ul.value li:first-child:before {
+	display: none;
+}
